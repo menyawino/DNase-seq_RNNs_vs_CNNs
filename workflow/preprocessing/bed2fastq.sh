@@ -49,8 +49,8 @@ cat $DATA_DIR/*.bed.gz > $EXCLUDE_FILE
 
 
 # Randomly sample regions from the genome that do not overlap DNase peaks
-SAMPLED_REGIONS=../../samples/encode/bed/sampled_regions.bed
+SAMPLED_REGIONS=../../work/001_preprocessing/sampled_regions.bed
 
 for i in {1..10}; do
-    bedtools shuffle -i $GENOME_BED -g $GENOME_SIZES -excl $EXCLUDE_FILE > $SAMPLED_REGIONS.$i
+    bedtools shuffle -i $GENOME_BED -g $GENOME_SIZES -excl $EXCLUDE_FILE >> $SAMPLED_REGIONS
 done
