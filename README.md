@@ -84,8 +84,6 @@ When focusing on the **most commonly used CNN-based methods in genomics**, these
 
 These three methods—one-hot encoding, k-mer embeddings, and multi-scale CNNs—have become go-to approaches because they balance **accuracy**, **interpretability**, and **scalability**. They also form the basis for more advanced hybrid models, making them a solid foundation for further exploration.
 
-Let me know which one you'd like to dive deeper into, and we can explore architectures, use cases, or implementation strategies! 🚀
-
 ---
 
 ### **Why ENCODE?**
